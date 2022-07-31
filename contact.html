@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asociatia Animal Shields</title>
+
+    <link href="contact.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <div class="logo">
+            <a href="index.html"><img src="imagini/logo2.png" alt="Asociatia Animal Shields"></a>
+        </div>
+        <a href="proceduraAdoptie.html">Procedura adop&#355;ie</a>
+        <a href="AnimaleDeAdoptat.html">Adopt&#259;</a>
+        <a href="donatii.html">Doneaz&#259;</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d95072.76245859828!2d21.858012728273717!3d46.93337266982612!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xff4e19ae4aa37bd7!2sAnimal%20Shields%20Oradea!5e0!3m2!1sen!2sro!4v1641944989765!5m2!1sen!2sro" style="border:0;" allowfullscreen="" loading="lazy"></iframe>    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="row">
+        <div class="container">
+            <form action="https://formspree.io/f/xlezgekd" method="POST">
+                <label for="Nume">Nume</label>
+                <input type="text" id="Nume" name="Nume" placeholder="Introduce&#355;i numele...">
+
+                <label for="Prenume">Prenume</label>
+                <input type="text" id="Prenume" name="Prenume" placeholder="Introduce&#355;i prenumele...">
+
+                <label for="Oras">Oras</label>
+                <select id="Oras" name="Oras">
+                    <option value="Coonstanta">Constan&#355;a</option>
+                    <option value="Craiova">Craiova</option>
+                    <option value="Oradea">Oradea</option>
+                    <option value="Sibiu">Sibiu</option>
+                </select>
+
+                <label for="Mesaj">Mesaj</label>
+                <textarea id="Mesaj" name="Mesaj" placeholder="Introduce&#355;i mesajul..." style="height:200px"></textarea>
+
+                <input type="submit" value="Trimite!">
+            </form>
+        </div>
+        <div class="container">
+            <h1>Contact:</h1>
+            <p><img src="imagini/phone.png" />0755555555</p>
+            <p><img src="imagini/mail.jpg" />animalshields@yahoo.com</p>
+            <p>
+                <img src="imagini/facebook.png" />
+                <a href="https://www.facebook.com/Animal-Shields-Oradea-1600055140279244/">https://www.facebook.com/Animal-Shields-Oradea-1600055140279244/</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="Footer_outer">
+        <div class="Footer_inner_left">
+            <p>
+                <img src="imagini/facebook-5-128.png" />
+                <a href="https://www.facebook.com/Animal-Shields-Oradea-1600055140279244/">https://www.facebook.com/Animal-Shields-Oradea-1600055140279244/</a>
+            </p>
+            <p><img src="imagini/location-128.png" /> Păușa , Bihor, România</p>
+        </div>
+        <div class="Footer_inner_right">
+            <p><img src="imagini/phone-128.png" />0755555555</p>
+            <p><img src="imagini/time-8-128.png" />Luni - Sâmbată 10:00 - 18:00</p>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+        x.className += " responsive";
+        } else {
+        x.className = "topnav";
+        }
+        }
+    </script>
+</body>
+</html>
